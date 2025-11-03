@@ -2,6 +2,9 @@
 
 This project implements a machine learning model to predict housing prices in California based on various features such as median income, house age, average rooms, etc.
 
+## Live Demo
+🔗 [Try the live application](https://califoniahousepricepredection-ml.onrender.com)
+
 ## Project Overview
 - Implements a Linear Regression model for price prediction
 - Uses the California Housing dataset from scikit-learn
