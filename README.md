@@ -43,8 +43,19 @@ conda activate venv/
 
 3. Install required packages:
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
+
+## Deployment on Render
+
+1. Create a new Web Service on Render
+2. Connect your GitHub repository
+3. Use the following settings:
+   - Environment: Python
+   - Build Command: `pip install -r requirements.txt`
+   - Start Command: `python app.py`
+4. Add the following environment variables if needed:
+   - `PYTHON_VERSION`: 3.8 (or your preferred version)
 
 ## Required Packages
 - Flask
